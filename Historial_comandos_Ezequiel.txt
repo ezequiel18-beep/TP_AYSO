@@ -1,0 +1,59 @@
+pwd
+cd
+ls
+ls -l
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls
+cd repogit/
+git clone git@github.com:ezequiel18-beep/TP_AYSO.git
+cd TP_AYSO/
+PWD
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami))"> datos_usuarios.txt
+ls
+cat datos_usuarios.txt 
+git add 
+git add .
+$?
+git config --global user.email"Ezegomez677@gmail.com"
+git config --global user.name"ezequiel18-beep"
+echo $?
+git config --global user.name"ezequiel18-beep"
+echo $?
+git config --global user.name"Ezequiel Gómez"
+git config --global user.name"EzequielGómez"
+git config --global user.name "ezequiel18-beep"
+echo $?
+git config --global user.email "Ezegomez677@gmail.com"
+echo $?
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios,txt"
+git status
+git push
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt 
+ls
+cat datos_usuarios.txt 
+git add
+git add .
+git status
+git push
+cat <<EOF>> README.md 
+Alumno : Ezequiel
+Division: 315 Turno : Noche
+EOF
+
+git add README.md datos_usuarios.txt 
+git commit -m "ADD : Aniadiendo Readme y datos de ususuarios"
+git push
+git status
+history -a
